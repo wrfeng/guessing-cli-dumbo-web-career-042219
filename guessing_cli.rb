@@ -8,20 +8,7 @@ def run_guessing_game
   end
   
   loop do
-    if input == "exit"
-      puts "Goodbye!"
-      break
-    end
-    
-    if answer == input.to_i
-      puts "You guessed the correct number!"
-      input = gets.chomp
-      break if input == "exit"
-    else
-      puts "The copmuter guessed #{answer}."
-      input = gets.chomp
-      break if input == "exit"
-    end
+  
   end
   
   
